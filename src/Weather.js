@@ -50,16 +50,7 @@ export default function Weather() {
                   id="icon"
                 />
                 <strong id="temperature">{data.temperature}</strong>
-                <span class="units">
-                  <a href="#" id="celsius-link" class="active">
-                    {" "}
-                    °C
-                  </a>{" "}
-                  |
-                  <a href="#" id="fahrenheit-link" rel="noreferrer">
-                    °F
-                  </a>
-                </span>
+                <span class="units">°C</span>
               </div>
             </div>
             <div class="col-6">
